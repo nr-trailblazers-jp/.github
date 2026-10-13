@@ -14,6 +14,8 @@
 ![Observability](https://img.shields.io/badge/Observability-FF6F61?style=for-the-badge)
 ![SRE](https://img.shields.io/badge/SRE-5E35B1?style=for-the-badge)
 ![Cloud Native](https://img.shields.io/badge/Cloud_Native-326CE5?style=for-the-badge&logo=cncf&logoColor=white)
+![FinOps](https://img.shields.io/badge/FinOps-00A86B?style=for-the-badge)
+![Tokenomics](https://img.shields.io/badge/Tokenomics-F7931A?style=for-the-badge)
 
 </div>
 
@@ -58,6 +60,11 @@ mindmap
       Toil削減
     Cloud Native
     Platform Engineering
+    FinOps
+      コスト最適化
+      コスト可視化
+      Unit Economics
+    Tokenomics
 ```
 
 ---
