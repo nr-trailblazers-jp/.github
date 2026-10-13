@@ -33,22 +33,27 @@
 ## 🧭 主なテーマ
 
 ```mermaid
-mindmap
-  root((nr-trailblazers-jp))
-    New Relic
-      APM
-      Dashboards
-      NRQL
-    OpenTelemetry
-      Traces
-      Metrics
-      Logs
-    Observability
-    SRE
-      SLO / SLI
-      Toil削減
-    Cloud Native
-    Platform Engineering
+graph LR
+    ROOT([nr-trailblazers-jp])
+
+    ROOT --> NR[New Relic]
+    NR --> NR1[APM]
+    NR --> NR2[Dashboards]
+    NR --> NR3[NRQL]
+
+    ROOT --> OTEL[OpenTelemetry]
+    OTEL --> O1[Traces]
+    OTEL --> O2[Metrics]
+    OTEL --> O3[Logs]
+
+    ROOT --> OBS[Observability]
+
+    ROOT --> SRE[SRE]
+    SRE --> S1[SLO / SLI]
+    SRE --> S2[Toil削減]
+
+    ROOT --> CN[Cloud Native]
+    ROOT --> PE[Platform Engineering]
 ```
 
 ---
@@ -57,13 +62,13 @@ mindmap
 
 ```mermaid
 flowchart LR
-    A[💡 企画・テーマ出し] --> B[✍️ 執筆]
-    B --> C[👀 相互レビュー]
-    C --> D{OK?}
-    D -- 要修正 --> B
-    D -- 承認 --> E[📦 サンプルコード整備]
-    E --> F[🚀 公開・頒布]
-    F --> G[🎤 勉強会・登壇]
+    A["企画・テーマ出し"] --> B["執筆"]
+    B --> C["相互レビュー"]
+    C --> D{"OK?"}
+    D -- "要修正" --> B
+    D -- "承認" --> E["サンプルコード整備"]
+    E --> F["公開・頒布"]
+    F --> G["勉強会・登壇"]
     G --> A
 ```
 
